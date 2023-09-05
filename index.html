@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lenson Lim</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img class="avatar-image" src="./assets/images/my-avatar.jpeg" alt="Lenson Lim" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Lenson Lim">Lenson Lim</h1>
+
+          <p class="title">Aspiring Software Engineer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:llim071@e.ntu.edu.sg" class="contact-link">llim071@e.ntu.edu.sg</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+6590266070" class="contact-link">+65 90266070</a>
+            </div>
+
+          </li>
+
+          <!-- <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">June 23, 1982</time>
+            </div>
+
+          </li> -->
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Singapore</address>
+            </div>
+
+          </li>
+
+          <li id="resume-button" class="contact-item resume-box">
+
+            <div class="icon-box resume-icon">
+              <img src="assets/images/icon-resume.svg" width="20px"></img>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title dark">Resume</p>
+
+              <p class="address-dark">Download</p>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/lenson-lim-05974621b/" target="_blank" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/Lebarnon" target="_blank" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+
+          <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li> -->
+
+          <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li> -->
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Hi I'm Lenson, a passionate problem solver who thrives on innovation! 
+          </p>  
+
+          <p>
+            From a young age, I've been driven to find smarter, more efficient solutions that enhance both processes and the lives of those around me. 
+            Whether it's developing a <strong>specialized stopwatch app</strong> to eliminate the need for physical stopwatches in Singapore's Army, 
+            creating a streamlined <strong>timetable planning tool</strong> for NTU students, or crafting a platform that leverages AI to <strong>interact with documents intelligently</strong>, 
+            I'm continuously equipping myself with new skills to empower others.
+          </p>
+
+          <p>
+            Currently a <strong>penultimate student</strong> pursuing a Double Degree in <strong>Business</strong> (with a specialization in Business Analytics) 
+            and <strong>Computer Science</strong> at Nanyang Technological University in Singapore, 
+            I've translated my passion into real-world impact. As a <strong>Business Analyst Intern at ABR Holdings</strong>, 
+            I optimized data processes, empowering informed decision-making through data analysis. 
+            My experience as a <strong>Software Engineer Intern</strong> at TalariaX allowed me to design and 
+            implement a chatbot admin panel using React.js and develop chatbot APIs with Node.js & Express.
+          </p>
+
+          <p>
+            I'm eagerly looking forward to new opportunities for growth, where I can contribute my software development experience and problem solving skills to your team.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <!-- <section class="service">
+
+          <h3 class="h3 service-title">Resume</h3>
+
+          <ul class="service-list">
+
+            <li  class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-resume.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Resume</h4>
+
+                <p class="service-item-text">
+                  Click to download
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section> -->
+
+
+        <!--
+          - testimonials
+        -->
+
+        <!-- <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section> -->
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume " data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Education</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Nanyang Technological University</h4>
+              <!-- <p class="h5 timeline-item-subtitle">
+                Double Degree in Business(Specialisation in Business Analytics) and Computer Science
+              </p> -->
+              <span>Aug 2021 - May 2025</span>
+              <p class="timeline-text">
+                Double Degree in Business(Specialisation in Business Analytics) and Computer Science
+              </p>
+            </li>
+          </ol>
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Business Analyst Assistant Intern, ABR Holdings</h4>
+
+              <span>May 2022 - July 2022</span>
+
+              <p class="timeline-text">
+                • Developed a framework to <strong>consolidate 9 isolated data sources</strong> into a Redshift warehouse and integrated
+                Periscope to automated and serve in-depth data analysis for various needs. 
+                <br>
+                • Implemented an extraction, transformation, and loading (ETL) data pipeline with <strong>python</strong> and automated it with
+                Airflow using workflows, eliminating the need for daily manual execution of pipelines.
+                <br>
+                • Refined dashboards and conceptualized storyboards using <strong>Tableau</strong>, enhancing business development efforts
+                and identifying key focus areas for informed decision-making.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Software Engineer Intern, TalariaX Pte Ltd</h4>
+
+              <span>Jan 2021 – Apr 2021</span>
+
+              <p class="timeline-text">
+                • Designed and implemented a comprehensive chatbot admin panel with <strong>React.js</strong>, including a drag-and-drop
+                chatbot builder, chatbot training section, and dashboard for chatbot flow stories.
+                <br>
+                • Developed chatbot APIs using <strong>Node.js & Express</strong> to handle CRUD operations and manage conversation flows.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Languages</h5>
+              </div>
+              <div class="skills-container">
+                <div class="skills-icon-box">
+                  <img class="skills-icon" src="assets/images/icon-python.svg"></img>
+                  <p class="h5">Python</p>
+                </div>
+                <div class="skills-icon-box">
+                  <img class="skills-icon" src="assets/images/icon-javascript.png"></img>
+                  <p class="h5">Javascript</p>
+                </div>
+                <div class="skills-icon-box">
+                  <img class="skills-icon" src="assets/images/icon-c.png"></img>
+                  <p class="h5">C</p>
+                </div>
+                <div class="skills-icon-box">
+                  <img class="skills-icon" src="assets/images/icon-java.png"></img>
+                  <p class="h5">Java</p>
+                </div>
+                <div class="skills-icon-box">
+                  <img class="skills-icon" src="assets/images/icon-sql.png"></img>
+                  <p class="h5">SQL</p>
+                </div>
+                <div class="skills-icon-box">
+                  <img class="skills-icon" src="assets/images/icon-nosql.png"></img>
+                  <p class="h5">NoSQL</p>
+                </div>
+                
+                <div class="skills-icon-box">
+                  <img class="skills-icon" src="assets/images/icon-dart.png"></img>
+                  <p class="h5">Dart</p>
+                </div>
+                
+                <div class="skills-icon-box">
+                  <img class="skills-icon" src="assets/images/icon-cpp.png"></img>
+                  <p class="h5">C++</p>
+                </div>
+                <div class="skills-icon-box">
+                  <img class="skills-icon" src="assets/images/icon-html.png"></img>
+                  <p class="h5">HTML</p>
+                </div>
+                <div class="skills-icon-box">
+                  <img class="skills-icon" src="assets/images/icon-css.png"></img>
+                  <p class="h5">CSS</p>
+                </div>
+                <div class="skills-icon-box">
+                  <img class="skills-icon" src="assets/images/icon-r.png"></img>
+                  <p class="h5">R</p>
+                </div>
+              </div>
+              <br><br>
+              <div class="title-wrapper">
+                <h5 class="h5">Technologies</h5>
+              </div>
+              <div class="skills-container">
+                <div class="skills-icon-box">
+                  <img class="skills-icon" src="assets/images/icon-nuxt.png"></img>
+                  <p class="h5">Nuxt</p>
+                </div>
+                <div class="skills-icon-box">
+                  <img class="skills-icon" src="assets/images/icon-vue.png"></img>
+                  <p class="h5">Vue</p>
+                </div>
+                <div class="skills-icon-box">
+                  <img class="skills-icon" src="assets/images/icon-flutter.webp"></img>
+                  <p class="h5">Flutter</p>
+                </div>
+                <div class="skills-icon-box">
+                  <img class="skills-icon" src="assets/images/icon-react.png"></img>
+                  <p class="h5">React</p>
+                </div>
+                <div class="skills-icon-box">
+                  <img class="skills-icon" src="assets/images/icon-firebase.png"></img>
+                  <p class="h5">Firebase</p>
+                </div>
+                <div class="skills-icon-box">
+                  <img class="skills-icon" src="assets/images/icon-node.png"></img>
+                  <p class="h5">Node</p>
+                </div>
+                <div class="skills-icon-box">
+                  <img class="skills-icon" src="assets/images/icon-mysql.png"></img>
+                  <p class="h5">MySQL</p>
+                </div>
+                <div class="skills-icon-box">
+                  <img class="skills-icon" src="assets/images/icon-mongo.png"></img>
+                  <p class="h5">MongoDB</p>
+                </div>
+                <div class="skills-icon-box">
+                  <img class="skills-icon" src="assets/images/icon-postgresql.png"></img>
+                  <p class="h5">PostgreSQL</p>
+                </div>
+                <div class="skills-icon-box">
+                  <img class="skills-icon" src="assets/images/icon-git.png"></img>
+                  <p class="h5">Git</p>
+                </div>
+                <div class="skills-icon-box">
+                  <img class="skills-icon" src="assets/images/icon-puppeteer.png"></img>
+                  <p class="h5">Puppeteer</p>
+                </div>
+                <div class="skills-icon-box">
+                  <img class="skills-icon" src="assets/images/icon-langchain.png"></img>
+                  <p class="h5">LangChain</p>
+                </div>
+                <div class="skills-icon-box dark">
+                  <img class="skills-icon" src="assets/images/icon-openai.png"></img>
+                  <p class="h5">OpenAI</p>
+                </div>
+              </div>
+            </li>
+
+            <!-- <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Graphic design</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li> -->
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PROJECTS
+      -->
+
+      <article class="portfolio" data-page="projects">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <!-- <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li> -->
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="Personal">
+              <a href="https://github.com/Lebarnon/BetterNotesApp" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+        
+                  <img src="./assets/images/BetternotesCover.png" alt="betternotes" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">BetterNotes</h3>
+
+                <p class="project-category">Nuxt · Firebase · LangChain · OpenAI</p>
+
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="Personal">
+              <a href="https://github.com/Lebarnon/NTUStars" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+        
+                  <img src="./assets/images/NTUStarsCover.png" alt="ntustars" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">NTUStars</h3>
+
+                <p class="project-category">Vue · Pinia · Firebase · Puppeteer</p>
+
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="Personal">
+              <a href="https://github.com/Lebarnon/sc2006-project" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+        
+                  <img src="./assets/images/HomelyHubCover.png" alt="homelyhub" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">HomelyHub</h3>
+
+                <p class="project-category">Vue · Firebase · Python</p>
+
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="Personal">
+              <a href="https://devpost.com/software/abcge" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+        
+                  <img src="./assets/images/HelpLehCover.png" alt="helpleh" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">HelpLeh</h3>
+
+                <p class="project-category">Next · React · Firebase</p>
+
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="Personal">
+              <a href="https://www.linkedin.com/posts/lenson-lim-05974621b_intuition-ntusg-ieeentu-activity-6904439359416737792-TUrP?utm_source=share&utm_medium=member_desktop" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+        
+                  <img src="./assets/images/BytesResumeCover.png" alt="bytesresume" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">ByteResumes</h3>
+
+                <p class="project-category">Python · Python-Docx · Telegram API</p>
+
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="Personal">
+              <a href="https://play.google.com/store/apps/details?id=com.companyname.x_3guards_app" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+        
+                  <img src="./assets/images/IPPTCover.png" alt="ipptapp" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">SAF IPPT Mobile Application</h3>
+
+                <p class="project-category">Xamarin · SQLite</p>
+
+              </a>
+            </li>
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <!-- <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section> -->
+
+        <!-- <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="mailto:llim071@e.ntu.edu.sg" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section> -->
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
