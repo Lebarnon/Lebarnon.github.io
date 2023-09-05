@@ -246,6 +246,12 @@ article.active {
 .article-title {
   position: relative;
   padding-bottom: 7px;
+  display: flex;
+  align-items: center;
+}
+.resume-download-btn{
+  margin-left: 10px;
+  cursor: pointer;
 }
 
 .article-title::after {

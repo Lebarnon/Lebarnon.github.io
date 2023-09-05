@@ -176,3 +176,5 @@ function downloadResume() {
 // Add a click event listener to the button
 const resumeButton = document.getElementById('resume-button');
 resumeButton.addEventListener('click', downloadResume);
+const resumeButton1 = document.getElementById('resume-button1');
+resumeButton1.addEventListener('click', downloadResume);
